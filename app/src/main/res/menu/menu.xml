@@ -11,7 +11,8 @@
         android:id="@+id/search"/>
     <item
         android:title="個人練習"
-        android:id="@+id/practice"/>
+        android:id="@+id/practice"
+        android:icon="@drawable/star_empty"/>
     <item
         android:title="個人資料"
         android:id="@+id/person"
