@@ -10,14 +10,13 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
         android:text="第"
         android:textColor="#FFAD4C"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@id/back"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_content"
+        app:layout_constraintEnd_toStartOf="@+id/title_content" />
 
     <TextView
         android:id="@+id/title2"
@@ -28,27 +27,29 @@
         android:textColor="#FFAD4C"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/title"
+        app:layout_constraintBottom_toBottomOf="@+id/title_content"
         app:layout_constraintStart_toEndOf="@+id/title_content" />
 
     <TextView
         android:id="@+id/title_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
         android:text="一"
         android:textColor="#FFAD4C"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/title"
-        app:layout_constraintStart_toEndOf="@id/title" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/content"
         android:layout_width="307dp"
         android:layout_height="185dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="160dp"
         android:layout_marginEnd="50dp"
         android:text="「備抵呆帳」會出現在哪張會計報表中？"
         android:textColor="#FFFFFF"
@@ -65,7 +66,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="50dp"
-        android:background="@drawable/textbox_1"
+        android:background="@drawable/login_textinput_4"
         android:text="放第一個選項"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -80,7 +81,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
-        android:background="@drawable/textbox_1"
+        android:background="@drawable/login_textinput_4"
         android:text="放第二個選項"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -95,7 +96,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
-        android:background="@drawable/textbox_1"
+        android:background="@drawable/login_textinput_4"
         android:text="放第三個選項"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -110,7 +111,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
-        android:background="@drawable/textbox_1"
+        android:background="@drawable/login_textinput_4"
         android:text="放第四個選項"
         android:textSize="20sp"
         android:textStyle="bold"
